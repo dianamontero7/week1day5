@@ -4,25 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<h1>Contact Me</h1>
+<h1 id="title1">Contact Me</h1>
+<nav id="buttons">
+    <ul>
+        <li> <a href="index.html">Home</a></li>
+        <li><a href="myhobbies.html">My Hobbies</a></li>
+        <li><a href="myfavoriteeats.html">My Favorite Eats</a></li>
+        <li><a class="active" href="contactme.html">Contact Me</a></li>
+    </ul>
+  
+</nav>
+<br>
     <form action="mailto:dianamontero38@gmail.com" method="get" enctype="text/plain">
         Name: <br>
+        <br>
         <input type="text" name="subject" placeholder="Your Name"> <br>
         <br>
         Email: <br>
+        <br>
         <input type="email" name="email" placeholder="Your Email"> <br>
         <br>
         Message: <br>
+        <br>
         <textarea name="body" rows="5" cols="30" placeholder="Your Message"></textarea><br>
         <br>
-        <input type="submit"   value="Sumbit">
+        <input type="submit"   value="Submit">
 
-
-    
 </form>
 
-    
+<footer id="bottom"> &copy; Diana Montero</footer>
+
 </body>
 </html>
